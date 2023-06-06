@@ -1,0 +1,18 @@
+GET http://localhost:3000/users
+
+###
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "susanti",
+    "tgl_lhir": "08 Agustus" ,
+    "tmpat_lhir": "Bogor" , 
+    "kelas": "IPA",
+    "alamat": "planet mars",
+    "no_hp": "098765432",
+    "name_ortu": "adudu" ,
+    "no_hportu": "987654321"
+    
+}
+
